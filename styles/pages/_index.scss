@@ -1,29 +1,28 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
-.cardPage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin: auto;
-  height: 100%;
-  min-height: 100vh;
+#indexPage {
+  .state {
+    fill: #aad2fd;
+  } /* default color for all states not specified below */
 
-  .callToActions {
-    button {
-      background: rgba(black, 0.15);
-      border-radius: 5000px;
-      padding: 8px 24px;
-      margin: 20px;
-      transition: background 0.2s;
-      cursor: pointer;
+  .borders {
+    stroke: #ffffff;
+    stroke-width: 1;
+  } /* color and width of borders between states */
 
-      &:hover {
-        background: rgba(black, 0.3);
-        transition: background 0.3s;
-      }
-    }
-  }
+  .dccircle {
+    display: yes;
+  } /* set display to yes to show the circle for the District of Columbia, or none to hide it */
+
+  .separator1 {
+    stroke: #b0b0b0;
+    stroke-width: 2;
+  } /* color and width of lines around Alaska and Hawaii */
+
+  /* Individual states can be colored as follows:
+  .ks,.mt,.pa {fill:#0000FF}
+  .ca,.de {fill:#FF0000}
+  In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
+  Place this code in the empty space below. */
 }
