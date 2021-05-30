@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.cardPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: auto;
+  height: 100%;
+  min-height: 100vh;
+
+  .callToActions {
+    button {
+      background: rgba(black, 0.15);
+      border-radius: 5000px;
+      padding: 8px 24px;
+      margin: 20px;
+      transition: background 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(black, 0.3);
+        transition: background 0.3s;
+      }
+    }
+  }
+}
