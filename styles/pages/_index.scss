@@ -2,6 +2,32 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 #indexPage {
+  text-align: center;
+
+  .mapCont {
+    margin: auto;
+    margin-top: 50px;
+    padding: 0 25px;
+    max-width: 850px;
+    text-align: left;
+
+    h1 {
+      font-size: 26px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .select-wrapper {
+      width: 100px;
+    }
+  }
+
+  .mapSvg {
+    margin: auto;
+    display: inline-block;
+    margin-top: 30px;
+  }
+
   .state {
     fill: #aad2fd;
   } /* default color for all states not specified below */
